@@ -1,0 +1,14 @@
+{
+  "name": "whiteboard-node",
+  "version": "1.0.0",
+  "description": "Whiteboard NodeJS Middle Tier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dillon Hammer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
