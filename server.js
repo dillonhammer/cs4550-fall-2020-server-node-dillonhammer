@@ -23,5 +23,7 @@ require("./controllers/question")(app);
 
 const PORT = 3000;
 app.listen(process.env.PORT || PORT, () => {
-  console.log(`Whiteboard server listening at port ${PORT}`);
+  console.log(
+    `Whiteboard server listening at port ${process.env.PORT || PORT}`
+  );
 });
