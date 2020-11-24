@@ -1,0 +1,68 @@
+[
+  {
+    "_id": "1",
+    "title": "JPA True False",
+    "quizId": "2",
+    "question": "JPA stands for Java Persistence API",
+    "correct": "true",
+    "type": "TRUE_FALSE"
+  },
+  {
+    "_id": "2",
+    "title": "JPA Multiple Choice",
+    "quizId": "2",
+    "question": "What does JPA stand for?",
+    "correct": "Java Persistence API",
+    "type": "MULTIPLE_CHOICE",
+    "choices": [
+      "Java Pseudo API",
+      "Java Persistence API",
+      "JSON Persistence API",
+      "JavaScript Persistence API"
+    ]
+  },
+  {
+    "_id": "3",
+    "title": "JSON True False",
+    "quizId": "2",
+    "question": "JSON stands for Java Object Notation",
+    "correct": "false",
+    "type": "TRUE_FALSE"
+  },
+  {
+    "_id": "4",
+    "title": "JSON Multiple Choice",
+    "quizId": "3",
+    "question": "What does JSON stand for?",
+    "correct": "JavaScript Object Notation",
+    "type": "MULTIPLE_CHOICE",
+    "choices": [
+      "JavaScript Object Notation",
+      "JavaScript Object Normalization",
+      "Java Object Normalization",
+      "Java Object Notation"
+    ]
+  },
+  {
+    "_id": "5",
+    "title": "CSS True False",
+    "quizId": "3",
+    "question": "CSS stands for Cascading Style Sheet",
+    "correct": "true",
+    "type": "TRUE_FALSE"
+  },
+  {
+    "_id": "6",
+    "title": "CSS Multiple Choice",
+    "quizId": "1",
+    "question": "What does CSS stand for?",
+    "correct": "Cascading Style Sheet",
+    "type": "MULTIPLE_CHOICE",
+    "choices": [
+      "Class Style Sheet",
+      "Cascading Screen Style",
+      "Cascading Style Sheet",
+      "Cascading Style Screen"
+    ]
+  }
+]
