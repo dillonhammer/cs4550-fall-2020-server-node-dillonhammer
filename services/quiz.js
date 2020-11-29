@@ -1,8 +1,8 @@
-const quizzes = require("./quiz-data.json");
+const quizDao = require("../daos/quiz");
 
 const quizService = {
-  findAllQuizzes: () => quizzes,
-  findQuizById: (quizId) => quizzes.find((quiz) => quiz._id === quizId),
+  findAllQuizzes: () => quizDao.findAllQuizzes(),
+  findQuizById: (quizId) => quizDao.findQuizById(quizId),
 };
 
 module.exports = {
